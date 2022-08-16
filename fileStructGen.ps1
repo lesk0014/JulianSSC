@@ -14,7 +14,7 @@
  $days = @()
  $dayNum = 1
  $rooms = @()
- $debug = $true
+ $debug = $false
 
 while ($in -ne 'done' -and $in -ne ''){
     $in = Read-Host -Prompt "`nEnter days eg. Monday`nEnter 'done' to end"
