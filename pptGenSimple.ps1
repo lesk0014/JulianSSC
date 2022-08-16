@@ -25,18 +25,17 @@ $day = Read-Host -prompt "Enter day (eg. 'Mon')"
 $room = Read-Host -prompt "Enter room"
 
 
-Write-Host "`nEnter time, then last name alternating"
+Write-Host "`nEnter time and surname"
 Write-Host "Enter 'done' to end"
 
 While ($in -ne 'done' -and $in -ne ''){
-    $in = Read-Host -prompt "Time"
+    $in = Read-Host -prompt "Time and surname"
     if ($in -ne 'done' -and $in -ne ''){
-        $times += $in
+        $splits = $in.split(" ")
+        $times += $splits[0]
+        $names += $splits[1]
 
-        $in = Read-Host -prompt "Name"
-        $names += $in
-
-        Write-Host "`nEnter another time and name, or 'done'"
+        Write-Host "`nEnter another time and surname, or 'done'"
     }
 }
 
