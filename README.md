@@ -42,6 +42,25 @@ Move the script to the next directory you need to create dummy files for
 Please remove this script from the directory once completed so it doesn't get pushed out to room PCs
 
 
+## - *fileStructGen.ps1*
+This script will generate a file structure with input days and rooms
+
+Place the script in the Presentations directory on the SSC File Server PC
+Right click and select 'Run with PowerShell'
+
+You will be prompted to input the days that your conference is running
+Enter the first day and continue in order
+(If the conference runs from Thursday to Monday, enter 'Thursday' first then continue through to 'Monday')
+
+Once complete press enter, or enter 'done'
+
+Now you will be prompted to enter the rooms you need SSC connection to
+Once complete press enter, or enter 'done'
+
+Your file structure should now be created.
+If they do not appear, try reloading explorer with 'ctrl+R'
+
+
 ## - *Run YouTube-DL.bat*
 This script automates running the commandline YouTube downloader
 (Included in YouTube-DL directory from secure drive)
