@@ -1,7 +1,7 @@
 # JulianSSC
 Scripts to automate mundane SSC tasks
 
-### FindAndReplace.ps1
+### - FindAndReplace.ps1
 This is a script that will update your FreeFileSync configs with a new day's directory
 
 Place in the folder containing the config files
@@ -19,7 +19,7 @@ Close and re-open FFS if it was already open.
 Your FFS configs are now updated, and you can start pushing presentations out.
 
 
-### pptGenSimple.ps1
+### - pptGenSimple.ps1
 This script will generate the dummy presentation files for your conference
 
 Copy the script into the directory where you want to create dummy files.
@@ -39,7 +39,7 @@ Your dummy ppt files should now be created.
 Please remove this script from the directory now so it doesn't get pushed out to room PCs
 
 
-### Run YouTube-DL.bat
+### - Run YouTube-DL.bat
 This script automates running the commandline YouTube downloader
 (Included in YouTube-DL directory from secure drive)
 
