@@ -31,13 +31,13 @@ The file names will include these inputs, so enter them as you want them in the 
 eg. 'Mon' and 'Rb 6-8'
 
 Next you will be prompted to enter the times and surnames for the presenters
-Enter the time e.g '0900' for 9:00am, then press enter
-Enter the corresponding surname, then press enter again
+Enter the time e.g '0900' for 9:00am, and the corresponding surname, seperated with a space
 
 You will now be prompted to enter another time and name if needed
-If not, you can enter 'done' and the program will exit.
+If not, you can enter 'done', or just press enter and the program will exit.
 
 Your dummy ppt files should now be created.
+If they do not appear, try reloading explorer with 'ctrl+R'
 Move the script to the next directory you need to create dummy files for
 Please remove this script from the directory once completed so it doesn't get pushed out to room PCs
 
