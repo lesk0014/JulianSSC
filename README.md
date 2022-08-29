@@ -4,18 +4,18 @@ Scripts to automate mundane SSC tasks
 ## - *FindAndReplace.ps1*
 This is a script that will update your FreeFileSync configs with a new day's directory
 
-Place in the directory containing the config files
-Right click and select 'Run with PowerShell'
-You will be prompted to enter the old day, and then the new day
-These should both be directory names
+Place in the directory containing the config files.
+Right click and select 'Run with PowerShell'.
+You will be prompted to enter the old day, and then the new day.
+These should both be directory names.
 
-eg. if you are updating from Wednesday to Thursday, as the second and third days of a conference
-your directories will probably be named '02 Wednesday' and '03 Thursday'
+eg. if you are updating from Wednesday to Thursday, as the second and third days of a conference.
+your directories will probably be named '02 Wednesday' and '03 Thursday'.
 
 So '02 Wednesday' will be the old day you need to enter
-and '03 Thursday' will be the new day you need to enter
+and '03 Thursday' will be the new day you need to enter.
 
-Close and re-open FFS if it was already open.
+Restart FFS.
 Your FFS configs are now updated, and you can start pushing presentations out.
 
 
