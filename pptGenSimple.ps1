@@ -32,8 +32,14 @@ While ($in -ne 'done' -and $in -ne ''){
     $in = Read-Host -prompt "Time and surname"
     if ($in -ne 'done' -and $in -ne ''){
         $splits = $in.split(" ")
+	$name = ""	
+
+	for ($i = 1; $i -lt $splits.count; $i++){
+		$name += "$($splits[$i]) "    		
+	}
+
         $times += $splits[0]
-        $names += $splits[1]
+        $names += $name.Substring(0,$name.Length-1)
 
         Write-Host "`nEnter another time and surname, or 'done'"
     }
